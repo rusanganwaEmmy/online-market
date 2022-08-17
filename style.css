@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    grid-template-columns:0.05fr 0.1fr 0.9fr;
+    
+}
+.top{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.number1{
+    border-radius: 10px;
+    background-color: green;
+
+}
+.part2{
+    background-color: bisque;
+    height:700px;
+}
+.last{
+  background-color: black;
+  height: 80px;
+}.part2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.part2 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.baga{
+    background-color: white;
+    width: 100px;
+    height: 80px;
+}
+.button{
+    background-color: green;
+    width: 80px;
+    margin-left: 700px;
+    margin-top: -57px;
+}
+.item{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+.changecolor{
+    background-color: orange;
+}
